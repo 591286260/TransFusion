@@ -1,7 +1,5 @@
 # Code for TransFusion
-<p align="center">
-    <a href="https://github.com/591286260/TransFusion/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/heroicons.svg" alt="License"></a>
-</p>
+<a href="https://github.com/591286260/TransFusion/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/heroicons.svg" alt="License"></a>
 ## Abstract
 CircRNA acts as a miRNA sponge, playing a crucial regulatory role in the occurrence and development of diseases. Existing computational prediction models have not sufficiently considered the intrinsic properties of molecules, along with local and global structural information. To address the above limitations, this paper proposes a Transformer-based graph fusion model TransFusion for predicting CMIs, which embeds the intrinsic semantic features of molecules into the network, integrates local and global structural information, and fuses multi-source feature. Multiple comparative experiments demonstrate that TransFusion can effectively predict potential relationships between circRNA and miRNA. Furthermore, we visualized the process of TransFusion in representing molecules, exploring the interpretability of the model in capturing and distinguishing molecular features. Case studies indicate that TransFusion, as a reliable auxiliary prediction tool, can deeply reveal the complex relationships between CMIs and diseases.
 ## Framework
