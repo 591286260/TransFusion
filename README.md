@@ -18,23 +18,17 @@ lightgbm>=3.3.5
 scipy>=1.10.0  
 tqdm>=4.65.0  
 matplotlib>=3.7.1  
-## Model Usage Steps
-
+## Usage Steps
 1. **Generation of Negative Samples**: Generate all available negative samples.  
    *Execution Script*: `generate_negative_samples.py`
-
 2. **Random Selection of Negative Samples**: Randomly select a number of negative samples equivalent to that of the positive samples.  
    *Execution Script*: `select_negative_samples.py`
-
 3. **Extraction of Semantic Information**: Employ the SeqSemExtractor to derive semantic representations from the sequences of both positive and negative samples.  
    *Execution Script*: `SeqSemExtractor.py`
-
 4. **Integration of Features**: Utilize GraphFusionNet to integrate molecular properties, local features, and global information.  
    *Execution Script*: `GraphFusionNet.py`
-
 5. **Matching of Representations**: Align the comprehensive representations of both positive and negative samples.  
    *Execution Script*: `match_representations.py`
-
 6. **Validation of Model Performance**: Conduct five-fold cross-validation experiments utilizing LightGBM to rigorously evaluate model performance.  
    *Execution Script*: `cross_validation.py`
 ## Dislaimer
