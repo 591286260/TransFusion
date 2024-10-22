@@ -33,3 +33,5 @@ matplotlib>=3.7.1
    *Execution Script*: `cross_validation.py`
 ## Dislaimer
 This code was developed for research purposes only. The authors make no warranties, express or implied, regarding its suitability for any particular purpose or its performance.
+## License
+This library is MIT licensed.
