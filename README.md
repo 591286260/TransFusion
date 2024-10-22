@@ -18,8 +18,7 @@ lightgbm>=3.3.5
 scipy>=1.10.0  
 tqdm>=4.65.0  
 matplotlib>=3.7.1  
-## Usage:
-### Model Usage Steps
+## Model Usage Steps
 
 1. **Generation of Negative Samples**: Generate all available negative samples.  
    *Execution Script*: `generate_negative_samples.py`
