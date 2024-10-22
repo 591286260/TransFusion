@@ -34,4 +34,5 @@ matplotlib>=3.7.1
 This code was developed for research purposes only. The authors make no warranties, express or implied, regarding its suitability for any particular purpose or its performance.
 ## License
 This library is MIT licensed.
+
 <a href="https://github.com/591286260/TransFusion/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/heroicons.svg" alt="License"></a>
